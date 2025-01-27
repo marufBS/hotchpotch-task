@@ -1,8 +1,8 @@
 import React from 'react'
 import imoji_1 from '../assets/imoji-1.svg'
-// import imoji_2 from '../assets/imoji-2.svg'
-// import imoji_3 from '../assets/imoji-3.svg'
-// import imoji_4 from '../assets/imoji-4.svg'
+import imoji_2 from '../assets/imoji-2.svg'
+import imoji_3 from '../assets/imoji-3.svg'
+import imoji_4 from '../assets/imoji-4.svg'
 
 const data = [
     {
@@ -11,12 +11,12 @@ const data = [
         desc: 'Write a better blog title with our A.I tool.'
     },
     {
-        logo: imoji_1,
+        logo: imoji_2,
         heading: 'Blog Intros',
         desc: 'Generate a paragraph of blog content using Blog Intros tool'
     },
     {
-        logo: imoji_1,
+        logo: imoji_3,
         heading: 'Blog Outline',
         desc: 'Need an attention-grabbing headline for your article?'
     },
@@ -26,17 +26,17 @@ const data = [
         desc: 'Write a better conclusions with AI writing tool.'
     },
     {
-        logo: imoji_1,
+        logo: imoji_4,
         heading: 'Content Rewriter',
         desc: 'Get AI writer to rewrite your sentence in a different way.'
     },
     {
-        logo: imoji_1,
+        logo: imoji_2,
         heading: 'Product Description',
         desc: 'Need an attention-grabbing headline for your article?'
     },
     {
-        logo: imoji_1,
+        logo: imoji_3,
         heading: 'PAS Copywriting Formula',
         desc: 'Get AI writer to rewrite your sentence in a different way.'
     },
@@ -50,21 +50,21 @@ const data = [
 const Tools = () => {
     return (
         <>
-            <div className='md:max-w-[90%] mx-auto bg-black'>
-                <div className='text-center my-10 space-y-5 md:max-w-[30%] mx-auto'>
-                    <h1 className='text-white text-3xl'>54 exciting writing tools</h1>
-                    <p className='text-gray-100'>AI engines take information from various sources and read them like a human would do.</p>
+            <div className='md:max-w-[70%] mx-auto bg-black'>
+                <div className='text-center my-10 space-y-5 md:max-w-[40%] mx-auto'>
+                    <h1 className='text-white text-4xl'>54 exciting writing tools</h1>
+                    <p className='text-gray-100 text-sm md:text-md font-inter'>AI engines take information from various sources and read them like a human would do.</p>
                 </div>
-                <div className='grid place-items-center grid-cols-1 md:grid-cols-4 gap-10'>
+                <div className='grid grid-cols-1 md:grid-cols-4 gap-10'>
                     {
                         data.map((d, i) => (
-                            <div className='bg-gray-800 w-[300px]  flex flex-row p-4 rounded-md justify-between'>
+                            <div className='bg-gray-800 md:w-[250px] flex flex-row p-4 rounded-md  gap-3'>
                                 <div className='flex items-start'>
                                     <img src={d.logo} width={30} alt="" />
                                 </div>
-                                <div className='text-white w-[200px] space-y-2'>
-                                    <h1 className='text-sm'>{d.heading}</h1>
-                                    <p className='text-xs'>{d.desc}</p>
+                                <div className='text-white item md:w-[180px] space-y-2'>
+                                    <h1 className='text-md md:text-sm'>{d.heading}</h1>
+                                    <p className='text-sm md:text-xs'>{d.desc}</p>
                                 </div>
                             </div>
                         ))

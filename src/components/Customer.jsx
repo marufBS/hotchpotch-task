@@ -74,7 +74,7 @@ const Customer = () => {
   return (
     <div className=''>
       <div className='text-center my-10 md:w-[25%] mx-auto space-y-5'>
-        <h1 className='text-3xl'>What our customers say</h1>
+        <h1 className='text-2xl md:text-3xl'>What our customers say</h1>
         <p>Read why thousands of marketers, writers, and entrepreneurs love us so much.</p>
       </div>
       <div className='text-black grid place-items-center grid-cols-1 md:grid-cols-4 gap-5 md:gap-1 md:max-w-[70%] mx-auto'>
@@ -83,16 +83,17 @@ const Customer = () => {
             <div className='md:w-[250px] bg-white p-4 rounded-md space-y-2'>
               <div className='flex justify-between'>
                 <div className='flex space-x-2'>
-                  <img src={d.image} alt="" />
+                  <img src={d.image} width={45} height={45} alt="" />
                   <div>
-                    <h1>{d.name}</h1>
-                    <p>{d.handler}</p>
+                    <h1 className='text-sm font-semibold'>{d.name}</h1>
+                    <p className='text-xs'>{d.handler}</p>
                   </div>
                 </div>
-                <div><img src={twitter} alt="" /></div>
+                <div className='mt-1'><img src={twitter} alt="" /></div>
               </div>
-              <p>{d.post}</p>
-              <div>{d.tags.map((tag, i) => (<span>#{tag} </span>))}</div>
+              <p className='text-sm'>{d.post}</p>
+              <div>{d.tags.map((tag, i) => (<a href='#' className='text-sm hover:underline text-blue-400'>#{tag} </a>))}</div>
+              <a href=""></a>
             </div>
           ))
         }
