@@ -32,7 +32,7 @@ const Trusted = () => {
                     </div>
                     <div className='text-white space-y-5 md:space-y-10 md:max-w-[40%]'>
                         <h1 className='text-xl md:text-4xl text-center md:text-left'>Create content efficiently  and quickly with great AI  writing tools</h1>
-                        <p className='text-sm font-inter'>150k+ users. No Credit Card Required. Pro designs and  writing at no cost. Start for free. Ai Writer Tool | Generate  text for ecom, social media, website, sales, blogs etc.</p>
+                        <p className='text-sm font-inter text-gray-400'>150k+ users. No Credit Card Required. Pro designs and  writing at no cost. Start for free. Ai Writer Tool | Generate  text for ecom, social media, website, sales, blogs etc.</p>
                         <div className='text-center md:text-left'>
                             <button className=' bg-gradient-to-r from-[#2B59FF] to-[#BB2BFF] px-3 py-2 rounded-sm text-sm font-medium hover:scale-105 transition-transform'>Start 14 Days Free Trial</button>
                         </div>
@@ -41,7 +41,7 @@ const Trusted = () => {
                 <div className='flex flex-col-reverse md:flex md:flex-row justify-center items-center space-y-10 md:space-y-20 '>
                     <div className='text-white space-y-5 md:space-y-10 md:max-w-[40%]'>
                         <h1 className='text-xl md:text-4xl text-center md:text-left'>Write what you want to convey through clear, & authentic writing</h1>
-                        <p className='text-sm font-inter'>AI-Writer is the most accurate content generation platform and writing tool that helps you transform your text into a completely personalized.</p>
+                        <p className='text-sm font-inter text-gray-400'>AI-Writer is the most accurate content generation platform and writing tool that helps you transform your text into a completely personalized.</p>
                         <div className='text-center md:text-left'>
                             <button className=' bg-gradient-to-r from-[#2B59FF] to-[#BB2BFF] px-3 py-2 rounded-sm text-sm font-medium hover:scale-105 transition-transform'>Start 14 Days Free Trial</button>
                         </div>

@@ -75,12 +75,12 @@ const Customer = () => {
     <div className=''>
       <div className='text-center my-10 md:w-[25%] mx-auto space-y-5'>
         <h1 className='text-2xl md:text-3xl'>What our customers say</h1>
-        <p>Read why thousands of marketers, writers, and entrepreneurs love us so much.</p>
+        <p className='text-gray-400'>Read why thousands of marketers, writers, and entrepreneurs love us so much.</p>
       </div>
       <div className='text-black grid place-items-center grid-cols-1 md:grid-cols-4 gap-5 md:gap-1 md:max-w-[70%] mx-auto'>
         {
           data.map((d, i) => (
-            <div className='md:w-[250px] bg-white p-4 rounded-md space-y-2'>
+            <div className='md:w-[250px] bg-white p-4 rounded-md space-y-2 hover:scale-105 transition-transform'>
               <div className='flex justify-between'>
                 <div className='flex space-x-2'>
                   <img src={d.image} width={45} height={45} alt="" />

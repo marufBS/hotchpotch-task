@@ -53,7 +53,7 @@ const Tools = () => {
             <div className='md:max-w-[70%] mx-auto '>
                 <div className='text-center my-10 space-y-5 md:max-w-[40%] mx-auto'>
                     <h1 className='text-white text-4xl'>54 exciting writing tools</h1>
-                    <p className='text-gray-100 text-sm md:text-md font-inter'>AI engines take information from various sources and read them like a human would do.</p>
+                    <p className=' text-sm md:text-md font-inter text-gray-400'>AI engines take information from various sources and read them like a human would do.</p>
                 </div>
                 <div className='grid grid-cols-1 md:grid-cols-4 gap-10'>
                     {

@@ -19,16 +19,15 @@ const Navbar = () => {
             </div>
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4">
-                <a href="#" className="hover:bg-blue-700 px-3 py-2 rounded-sm text-sm font-medium">Demos</a>
-                <a href="#" className="hover:bg-blue-700 px-3 py-2 rounded-sm text-sm font-medium">About</a>
-                <a href="#" className="hover:bg-blue-700 px-3 py-2 rounded-sm text-sm font-medium">Blog</a>
-                <a href="#" className="hover:bg-blue-700 px-3 py-2 rounded-sm text-sm font-medium">Pages</a>
-                <a href="#" className="hover:bg-blue-700 px-3 py-2 rounded-sm text-sm font-medium">Contact</a>
+                <a href="#" className="hover:bg-white hover:text-black px-3 py-2 rounded-sm text-sm font-medium">Demos</a>
+                <a href="#" className="hover:bg-white hover:text-black px-3 py-2 rounded-sm text-sm font-medium">About</a>
+                <a href="#" className="hover:bg-white hover:text-black px-3 py-2 rounded-sm text-sm font-medium">Blog</a>
+                <a href="#" className="hover:bg-white hover:text-black px-3 py-2 rounded-sm text-sm font-medium">Pages</a>
+                <a href="#" className="hover:bg-white hover:text-black px-3 py-2 rounded-sm text-sm font-medium">Contact</a>
               </div>
             </div>
           </div>
-          <div className='flex space-x-4 hidden md:block'>
-            {/* <button type="button" className="text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">Sign In</button> */}
+          <div className='space-x-4 hidden md:block'>
             <button type="button" className="outline-custom hover:bg-white hover:text-black px-3 py-2 rounded-sm text-sm font-medium">Sign In</button>
             <button type="button" className="bg-gradient-to-r from-[#2B59FF] to-[#BB2BFF] px-3 py-2 rounded-sm text-sm font-medium">Get Started Free</button>
           </div>
@@ -43,7 +42,7 @@ const Navbar = () => {
         </div>
       </div>
       {isOpen && (
-        <div className="md:hidden absolute bg-[rgba(151,129,129,0.15)] backdrop-blur-sm w-full  ">
+        <div className="md:hidden absolute top-15 z-50 left-0 bg-[rgba(151,129,129,0.15)] backdrop-blur-sm w-full  ">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <a href="#" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-700">Demos</a>
             <a href="#" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-700">About</a>

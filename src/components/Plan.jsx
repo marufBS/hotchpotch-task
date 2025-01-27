@@ -26,19 +26,19 @@ const Plan = () => {
         <div className=' md:max-w-[70%] mx-auto my-10'>
             <div className='text-center my-10 md:w-[30%] mx-auto space-y-5'>
                 <h1 className='text-xl md:text-3xl'>Make the wise decision for your business</h1>
-                <p className='text-md'>Choose from our affordable 3 packages</p>
+                <p className='text-md text-gray-400'>Choose from our affordable 3 packages</p>
             </div>
 
-            <div className="grid place-items-center grid-cols md:grid-cols-3 gap-10 items-stretch">
+            <div className="grid place-items-center grid-cols md:grid-cols-3 gap-10 md:gap-1 items-stretch">
                 {data.map((d, i) => (
                     <div className="bg-[#282A37] p-5 rounded-lg flex flex-col hover:scale-105 transition-transform">
-                        <p className='font-inter text-sm mb-8'>{d.planTitle} Plan</p>
+                        <p className='font-inter text-sm mb-8 text-gray-200'>{d.planTitle} Plan</p>
                         <p className='font-outfit mb-5'>
                             <span className="text-4xl">${d.price}</span>/month
                         </p>
-                        <p className='font-inter text-xs mb-8'>{d.title}</p>
+                        <p className='font-inter text-xs mb-8 text-gray-400'>{d.title}</p>
                         <p className='font-inter text-sm mb-5'>What's included:</p>
-                        <div className='mb-10'>
+                        <div className='mb-10 text-gray-400'>
                             {
                                 d.planDescriptions.map((offer) => (
                                     <p className='font-inter text-sm mb-3'>{offer}</p>

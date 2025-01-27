@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <>
             <div class=" text-white flex items-center justify-center my-15 md:my-30">
-                <div
+                {/* <div className='hidden md:block'
                     style={{
                         width: "200px",            // Set a width for the div
                         height: "200px",           // Set a height for the div
@@ -16,7 +16,7 @@ const Header = () => {
                         bottom:300,
                         right:-200
                     }}
-                ></div>
+                ></div> */}
 
                 <div class="text-center">
                     <h1 className="text-4xl md:text-6xl mb-10">
@@ -31,7 +31,7 @@ const Header = () => {
                         </span>
                     </h1>
 
-                    <p class="text-gray-300 text-lg md:text-xl mb-8 font-[Inter]">
+                    <p class=" text-md md:text-lg mb-8 font-[Inter] text-gray-400">
                         Artificial intelligence writting tool helps you create blogs,<br /> social media websites and much more.
                     </p>
 
