@@ -86,7 +86,7 @@ const Customer = () => {
                   <img src={d.image} width={45} height={45} alt="" />
                   <div>
                     <h1 className='text-sm font-semibold'>{d.name}</h1>
-                    <p className='text-xs'>{d.handler}</p>
+                      <p className='text-xs text-[#12141D] font-extralight'>{d.handler}</p>
                   </div>
                 </div>
                 <div className='mt-1'><img src={twitter} alt="" /></div>
