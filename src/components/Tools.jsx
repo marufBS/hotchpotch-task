@@ -58,7 +58,7 @@ const Tools = () => {
                 <div className='grid grid-cols-1 md:grid-cols-4 gap-10'>
                     {
                         data.map((d, i) => (
-                            <div className='bg-[#282A37] md:w-[250px] flex flex-row p-4 rounded-md  gap-3'>
+                            <div key={i} className='bg-[#282A37] md:w-[250px] flex flex-row p-4 rounded-md  gap-3'>
                                 <div className='flex items-start'>
                                     <img src={d.logo} width={30} alt="" />
                                 </div>
@@ -74,7 +74,7 @@ const Tools = () => {
                     <a href="#" className="text-sm hover:underline">See all 54 available tools</a>
                 </div>
             </div>
-            <hr class="h-px  bg-black border-0 dark:bg-gray-700"></hr>
+            <hr className="h-px  bg-black border-0 dark:bg-gray-700"></hr>
         </>
     )
 }

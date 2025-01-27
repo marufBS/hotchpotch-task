@@ -1,5 +1,4 @@
 import React from 'react'
-import { Twitter } from 'lucide-react'
 import twitter from '../assets/logo-twitter.png'
 import profile_1 from '../assets/profile_1.png'
 import profile_2 from '../assets/profile_2.png'
@@ -80,7 +79,7 @@ const Customer = () => {
       <div className='text-black grid place-items-center grid-cols-1 md:grid-cols-4 gap-5 md:gap-1 md:max-w-[70%] mx-auto'>
         {
           data.map((d, i) => (
-            <div className='md:w-[250px] bg-white p-4 rounded-md space-y-2 hover:scale-105 transition-transform'>
+            <div key={i} className='md:w-[250px] bg-white p-4 rounded-md space-y-2 hover:scale-105 transition-transform'>
               <div className='flex justify-between'>
                 <div className='flex space-x-2'>
                   <img src={d.image} width={45} height={45} alt="" />
@@ -92,7 +91,7 @@ const Customer = () => {
                 <div className='mt-1'><img src={twitter} alt="" /></div>
               </div>
               <p className='text-sm'>{d.post}</p>
-              <div>{d.tags.map((tag, i) => (<a href='#' className='text-sm hover:underline text-blue-400'>#{tag} </a>))}</div>
+              <div>{d.tags.map((tag, i) => (<a key={i} href='#' className='text-sm hover:underline text-blue-400'>#{tag} </a>))}</div>
               <a href=""></a>
             </div>
           ))

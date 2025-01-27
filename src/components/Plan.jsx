@@ -31,7 +31,7 @@ const Plan = () => {
 
             <div className="grid place-items-center grid-cols md:grid-cols-3 gap-10 md:gap-1 items-stretch">
                 {data.map((d, i) => (
-                    <div className="bg-[#282A37] p-5 rounded-lg flex flex-col hover:scale-105 transition-transform">
+                    <div key={i} className="bg-[#282A37] p-5 rounded-lg flex flex-col hover:scale-105 transition-transform">
                         <p className='font-inter text-sm mb-8 text-gray-200'>{d.planTitle} Plan</p>
                         <p className='font-outfit mb-5'>
                             <span className="text-4xl">${d.price}</span>/month
@@ -40,8 +40,8 @@ const Plan = () => {
                         <p className='font-inter text-sm mb-5'>What's included:</p>
                         <div className='mb-10 text-gray-400'>
                             {
-                                d.planDescriptions.map((offer) => (
-                                    <p className='font-inter text-sm mb-3'>{offer}</p>
+                                d.planDescriptions.map((offer,idx) => (
+                                    <p key={idx} className='font-inter text-sm mb-3'>{offer}</p>
                                 ))
                             }
                         </div>

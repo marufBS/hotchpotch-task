@@ -20,7 +20,7 @@ const Trusted = () => {
                 <div className='grid grid-cols-2 md:grid-cols-4 gap-10 place-items-center'>
                     {
                         images.map((img, idx) => (
-                            <div><img src={img} alt="" /></div>
+                            <div key={idx}><img src={img} alt="" /></div>
                         ))
                     }
                 </div>

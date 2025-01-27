@@ -9,45 +9,45 @@ const Footer = () => {
                     <button className='bg-white text-black p-3 rounded-sm w-full font-inter text-lg md:text-sm font-semibold hover:scale-105 transition-transform'>Start 14 Days Free Trial</button>
                 </div>
             </div>
-            <div class="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 py-10">
+            <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 py-10">
 
                 <div>
-                    <h2 class="font-semibold text-lg mb-4">Company</h2>
-                    <ul class="space-y-2">
-                        <li><a href="#" class="text-gray-400 hover:text-white">About</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-white">Features</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-white">Works</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-white">Career</a></li>
+                    <h2 className="font-semibold text-lg mb-4">Company</h2>
+                    <ul className="space-y-2">
+                        <li><a href="#" className="text-gray-400 hover:text-white">About</a></li>
+                        <li><a href="#" className="text-gray-400 hover:text-white">Features</a></li>
+                        <li><a href="#" className="text-gray-400 hover:text-white">Works</a></li>
+                        <li><a href="#" className="text-gray-400 hover:text-white">Career</a></li>
                     </ul>
                 </div>
 
                 <div>
-                    <h2 class="font-semibold text-lg mb-4">Help</h2>
-                    <ul class="space-y-2">
-                        <li><a href="#" class="text-gray-400 hover:text-white">Customer Support</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-white">Delivery Details</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-white">Terms & Conditions</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-white">Privacy Policy</a></li>
+                    <h2 className="font-semibold text-lg mb-4">Help</h2>
+                    <ul className="space-y-2">
+                        <li><a href="#" className="text-gray-400 hover:text-white">Customer Support</a></li>
+                        <li><a href="#" className="text-gray-400 hover:text-white">Delivery Details</a></li>
+                        <li><a href="#" className="text-gray-400 hover:text-white">Terms & Conditions</a></li>
+                        <li><a href="#" className="text-gray-400 hover:text-white">Privacy Policy</a></li>
                     </ul>
                 </div>
 
                 <div>
-                    <h2 class="font-semibold text-lg mb-4">Resources</h2>
-                    <ul class="space-y-2">
-                        <li><a href="#" class="text-gray-400 hover:text-white">Free eBooks</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-white">Development Tutorial</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-white">How to - Blog</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-white">Youtube Playlist</a></li>
+                    <h2 className="font-semibold text-lg mb-4">Resources</h2>
+                    <ul className="space-y-2">
+                        <li><a href="#" className="text-gray-400 hover:text-white">Free eBooks</a></li>
+                        <li><a href="#" className="text-gray-400 hover:text-white">Development Tutorial</a></li>
+                        <li><a href="#" className="text-gray-400 hover:text-white">How to - Blog</a></li>
+                        <li><a href="#" className="text-gray-400 hover:text-white">Youtube Playlist</a></li>
                     </ul>
                 </div>
 
                 <div>
-                    <h2 class="font-semibold text-lg mb-4">Links</h2>
-                    <ul class="space-y-2">
-                        <li><a href="#" class="text-gray-400 hover:text-white">Free eBooks</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-white">Development Tutorial</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-white">How to - Blog</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-white">Youtube Playlist</a></li>
+                    <h2 className="font-semibold text-lg mb-4">Links</h2>
+                    <ul className="space-y-2">
+                        <li><a href="#" className="text-gray-400 hover:text-white">Free eBooks</a></li>
+                        <li><a href="#" className="text-gray-400 hover:text-white">Development Tutorial</a></li>
+                        <li><a href="#" className="text-gray-400 hover:text-white">How to - Blog</a></li>
+                        <li><a href="#" className="text-gray-400 hover:text-white">Youtube Playlist</a></li>
                     </ul>
                 </div>
             </div>
