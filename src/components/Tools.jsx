@@ -50,7 +50,7 @@ const data = [
 const Tools = () => {
     return (
         <>
-            <div className='md:max-w-[70%] mx-auto bg-black'>
+            <div className='md:max-w-[70%] mx-auto '>
                 <div className='text-center my-10 space-y-5 md:max-w-[40%] mx-auto'>
                     <h1 className='text-white text-4xl'>54 exciting writing tools</h1>
                     <p className='text-gray-100 text-sm md:text-md font-inter'>AI engines take information from various sources and read them like a human would do.</p>
@@ -58,7 +58,7 @@ const Tools = () => {
                 <div className='grid grid-cols-1 md:grid-cols-4 gap-10'>
                     {
                         data.map((d, i) => (
-                            <div className='bg-gray-800 md:w-[250px] flex flex-row p-4 rounded-md  gap-3'>
+                            <div className='bg-[#282A37] md:w-[250px] flex flex-row p-4 rounded-md  gap-3'>
                                 <div className='flex items-start'>
                                     <img src={d.logo} width={30} alt="" />
                                 </div>

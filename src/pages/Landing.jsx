@@ -10,7 +10,7 @@ import Footer from '../components/Footer'
 
 const Landing = () => {
     return (
-        <div className='bg-black text-white px-5 md:px-0'>
+        <div className='bg-[#12141D] text-white px-5 md:px-0'>
             <Navbar />
             <Header />
             <Trusted />

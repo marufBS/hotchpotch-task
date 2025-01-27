@@ -6,7 +6,7 @@ const Footer = () => {
             <div className='bg-gradient-to-r from-[#2B59FF]  to-[#BB2BFF] md:max-w-[85%] mx-auto flex flex-col md:flex-row justify-between p-5 rounded-lg my-10 mt-20 space-y-5'>
                 <h1 className='text-lg text-center md:text-left md:text-3xl md:max-w-[50%]'>It will help you improve your writing & bring ideas more c learly.</h1>
                 <div className='flex justify-center md:items-center'>
-                    <button className='bg-white text-black p-3 rounded-sm w-full font-inter text-lg md:text-sm font-semibold'>Start 14 Days Free Trial</button>
+                    <button className='bg-white text-black p-3 rounded-sm w-full font-inter text-lg md:text-sm font-semibold hover:scale-105 transition-transform'>Start 14 Days Free Trial</button>
                 </div>
             </div>
             <div class="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 py-10">

@@ -14,8 +14,8 @@ const images = [Trusted_1, Trusted_2, Trusted_3, Trusted_4, Trusted_5, Trusted_6
 
 const Trusted = () => {
     return (
-        <div className='flex flex-col bg-black md:max-w-[65%] mx-auto space-y-20 mt-10 mb-5 md:mb-10'>
-            <div className='bg-black flex flex-col md:max-w-[90%] mx-auto '>
+        <div className='flex flex-col  md:max-w-[65%] mx-auto space-y-20 mt-10 mb-5 md:mb-10'>
+            <div className=' flex flex-col md:max-w-[90%] mx-auto '>
                 <h1 className='text-white text-center text-xl md:text-2xl mb-15'>Trusted by nearly 5000+ paying customers</h1>
                 <div className='grid grid-cols-2 md:grid-cols-4 gap-10 place-items-center'>
                     {
@@ -34,7 +34,7 @@ const Trusted = () => {
                         <h1 className='text-xl md:text-4xl text-center md:text-left'>Create content efficiently  and quickly with great AI  writing tools</h1>
                         <p className='text-sm font-inter'>150k+ users. No Credit Card Required. Pro designs and  writing at no cost. Start for free. Ai Writer Tool | Generate  text for ecom, social media, website, sales, blogs etc.</p>
                         <div className='text-center md:text-left'>
-                            <button className=' bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-3 py-2 rounded-sm text-sm font-medium'>Start 14 Days Free Trial</button>
+                            <button className=' bg-gradient-to-r from-[#2B59FF] to-[#BB2BFF] px-3 py-2 rounded-sm text-sm font-medium hover:scale-105 transition-transform'>Start 14 Days Free Trial</button>
                         </div>
                     </div>
                 </div>
@@ -43,7 +43,7 @@ const Trusted = () => {
                         <h1 className='text-xl md:text-4xl text-center md:text-left'>Write what you want to convey through clear, & authentic writing</h1>
                         <p className='text-sm font-inter'>AI-Writer is the most accurate content generation platform and writing tool that helps you transform your text into a completely personalized.</p>
                         <div className='text-center md:text-left'>
-                            <button className=' bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-3 py-2 rounded-sm text-sm font-medium'>Start 14 Days Free Trial</button>
+                            <button className=' bg-gradient-to-r from-[#2B59FF] to-[#BB2BFF] px-3 py-2 rounded-sm text-sm font-medium hover:scale-105 transition-transform'>Start 14 Days Free Trial</button>
                         </div>
                     </div>
                     <div className='mb-10 md:w-[90%] md:flex justify-end'>

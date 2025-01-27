@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-black text-white font-[Inter]">
+    <nav className=" text-white font-[Inter]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
@@ -30,7 +30,7 @@ const Navbar = () => {
           <div className='flex space-x-4 hidden md:block'>
             {/* <button type="button" className="text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">Sign In</button> */}
             <button type="button" className="outline-custom hover:bg-white hover:text-black px-3 py-2 rounded-sm text-sm font-medium">Sign In</button>
-            <button type="button" className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-3 py-2 rounded-sm text-sm font-medium">Get Started Free</button>
+            <button type="button" className="bg-gradient-to-r from-[#2B59FF] to-[#BB2BFF] px-3 py-2 rounded-sm text-sm font-medium">Get Started Free</button>
           </div>
           <div className="md:hidden">
             <button

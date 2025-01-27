@@ -23,7 +23,7 @@ const Plan = () => {
         },
     ]
     return (
-        <div className='bg-black md:max-w-[70%] mx-auto my-10'>
+        <div className=' md:max-w-[70%] mx-auto my-10'>
             <div className='text-center my-10 md:w-[30%] mx-auto space-y-5'>
                 <h1 className='text-xl md:text-3xl'>Make the wise decision for your business</h1>
                 <p className='text-md'>Choose from our affordable 3 packages</p>
@@ -31,7 +31,7 @@ const Plan = () => {
 
             <div className="grid place-items-center grid-cols md:grid-cols-3 gap-10 items-stretch">
                 {data.map((d, i) => (
-                    <div className="bg-[#282A37] p-5 rounded-lg flex flex-col">
+                    <div className="bg-[#282A37] p-5 rounded-lg flex flex-col hover:scale-105 transition-transform">
                         <p className='font-inter text-sm mb-8'>{d.planTitle} Plan</p>
                         <p className='font-outfit mb-5'>
                             <span className="text-4xl">${d.price}</span>/month
@@ -48,8 +48,8 @@ const Plan = () => {
 
                         <div className="mt-auto text-center">
                             <button className={`${d.planTitle === "Basic"
-                                ? "w-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:bg-blue-700 px-5 py-4 rounded-sm text-md font-medium"
-                                : "w-full outline-custom hover:bg-blue-700 hover:outline-0 px-5 py-4 rounded-sm text-md font-medium"
+                                ? "w-full bg-gradient-to-r from-[#2B59FF] to-[#BB2BFF] hover:bg-blue-700 px-5 py-4 rounded-sm text-md font-medium"
+                                : "w-full outline-custom hover:bg-white hover:text-black hover:outline-0 px-5 py-4 rounded-sm text-md font-medium"
                                 }`}>
                                 Get Started
                             </button>
