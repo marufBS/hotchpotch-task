@@ -29,7 +29,13 @@ const Navbar = () => {
           </div>
           <div className='space-x-4 hidden md:block'>
             <button type="button" className="outline-custom hover:bg-white hover:text-black px-3 py-2 rounded-sm text-sm font-medium">Sign In</button>
-            <button type="button" className="bg-gradient-to-r from-[#2B59FF] to-[#BB2BFF] px-3 py-2 rounded-sm text-sm font-medium">Get Started Free</button>
+            <button
+              type="button"
+              className="bg-gradient-to-r from-[#2B59FF] to-[#BB2BFF] hover:from-[#5C7FFF] hover:to-[#CB5CFF] active:from-[#0035F5] active:to-[#A600F5]  transition-colors duration-200 px-3 py-2 rounded-sm text-sm font-medium"
+            >
+              Get Started Free
+            </button>
+
           </div>
           <div className="md:hidden">
             <button
